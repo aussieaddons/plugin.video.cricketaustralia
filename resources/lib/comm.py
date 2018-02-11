@@ -33,15 +33,22 @@ def get_matches():
 
     for match in video_data['matchList']['matches']:
         live_streams = match['liveStreams']
+
+        # Use the thumb from the match article if available
+        thumbnail = None
+        if 'matchWrapArticle' in match:
+           thumbnail = match['matchWrapArticle'].get('image')
+
         for ls in live_streams:
+            # Only consider streams available in AU
             if 'AU' in [c['countryName'] for c in ls['streamCountriesList']]:
+                name = "%s: %s v %s" % (match['series']['name'],
+                                        match['homeTeam']['shortName'],
+                                        match['awayTeam']['shortName'])
                 video_list.append({
                     'video_id': ls['id'],
-                    'name': "%s: %s v %s" % (
-                        match['name'],
-                        match['homeTeam']['name'],
-                        match['awayTeam']['name'],
-                    )
+                    'name': name,
+                    'thumbnail': thumbnail or ls.get('thumbnailUrl')
                 })
 
     return video_list

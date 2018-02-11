@@ -9,7 +9,7 @@
   </extension>
   <extension library="addon.py" point="xbmc.addon.metadata">
     <summary>Cricket Australia by Aussie Add-ons</summary>
-    <description>Watch LIVE cricket</description>
+    <description>Watch live Cricket matches provided by Cricket Australia.</description>
     <website>http://aussieaddons.com/addons/cricket/</website>
     <source>https://github.com/aussieaddons/plugin.video.cricketaustralia</source>
     <provides>video</provides>

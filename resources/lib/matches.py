@@ -5,6 +5,7 @@ import xbmcplugin
 
 from aussieaddonscommon import utils
 
+
 def make_list():
     try:
         matches = comm.get_matches()
@@ -22,11 +23,11 @@ def make_list():
                 listitem.setInfo('video', {'plot': match['name']})
 
                 # add the item to the media list
-                ok = xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),
-                                                 url=url,
-                                                 listitem=listitem,
-                                                 isFolder=False,
-                                                 totalItems=len(matches))
+                xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),
+                                            url=url,
+                                            listitem=listitem,
+                                            isFolder=False,
+                                            totalItems=len(matches))
 
             xbmcplugin.endOfDirectory(handle=int(sys.argv[1]))
     except Exception:

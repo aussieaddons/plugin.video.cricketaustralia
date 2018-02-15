@@ -1,3 +1,7 @@
+CATEGORIES = ['Live Matches',
+              'Latest News']
+
+VIDEOS_URL = 'https://apinew.cricket.com.au/videos?Limit=30'
 
 MATCHES_URL = 'https://apinew.cricket.com.au/matches?inProgressLimit=15&completedLimit=0&upcomingLimit=0'
 

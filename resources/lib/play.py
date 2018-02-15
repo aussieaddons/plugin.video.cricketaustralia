@@ -1,8 +1,5 @@
 import comm
-import config
-import os
 import sys
-import xbmc
 import xbmcgui
 import xbmcplugin
 
@@ -13,7 +10,18 @@ pluginhandle = int(sys.argv[1])
 
 def play(params):
     try:
-        success = True
+        import drmhelper
+        if not drmhelper.check_inputstream(drm=False):
+            return
+    except ImportError:
+        utils.log("Failed to import drmhelper")
+        utils.dialog_message(
+            'DRM Helper is needed for inputstream.adaptive '
+            'playback. For more information, please visit: '
+            'http://aussieaddons.com/drm')
+        return
+
+    try:
         stream = comm.get_stream(params['video_id'])
 
         utils.log('Attempting to play: {0} {1}'.format(stream['name'],
@@ -27,4 +35,3 @@ def play(params):
         xbmcplugin.setResolvedUrl(pluginhandle, True, listitem=item)
     except Exception:
         utils.handle_error('Unable to play video')
-

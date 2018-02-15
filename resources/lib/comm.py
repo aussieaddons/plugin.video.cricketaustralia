@@ -1,6 +1,5 @@
 import config
 import json
-import xbmcaddon
 
 from aussieaddonscommon import session
 from aussieaddonscommon import utils
@@ -37,7 +36,7 @@ def get_matches():
         # Use the thumb from the match article if available
         thumbnail = None
         if 'matchWrapArticle' in match:
-           thumbnail = match['matchWrapArticle'].get('image')
+            thumbnail = match['matchWrapArticle'].get('image')
 
         for ls in live_streams:
             # Only consider streams available in AU
@@ -51,6 +50,26 @@ def get_matches():
                     'thumbnail': thumbnail or ls.get('thumbnailUrl')
                 })
 
+    return video_list
+
+
+def get_videos():
+    video_list = []
+    data = fetch_url(config.VIDEOS_URL)
+    try:
+        video_data = json.loads(data)
+    except ValueError:
+        utils.log('Failed to load JSON. Data is: {0}'.format(data))
+        raise Exception('Failed to retrieve video data. Service may be '
+                        'currently unavailable.')
+
+    for video in video_data['videos']:
+        video_list.append({
+            'video_id': video['videoId'],
+            'name': video['title'],
+            'description': video['summary'],
+            'thumbnail': video['thumbnailUrl'],
+        })
     return video_list
 
 
@@ -68,8 +87,13 @@ def get_stream(video_id):
         raise Exception('Failed to retrieve video data. Service may be '
                         'currently unavailable.')
 
+    stream_url = None
+    for s in video_data['sources']:
+        if 'src' in s and 'master.m3u8' in s['src']:
+            stream_url = s['src']
+
     stream = {
-        'url': video_data['sources'][0]['src'],
+        'url': stream_url,
         'name': video_data['name'],
-    }   
+    }
     return stream

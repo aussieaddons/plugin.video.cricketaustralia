@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <!-- Debugging -->
+  <category label="9000">
+    <setting label="9100" type="action" action="RunPlugin(plugin://plugin.video.cricketaustralia/?action=sendreport)"/>
+    <setting label="9200" type="action" action="RunPlugin(plugin://plugin.video.cricketaustralia/?action=update_ia)"/>
+  </category>
+</settings>

@@ -89,7 +89,7 @@ def get_stream(video_id):
 
     stream_url = None
     for s in video_data['sources']:
-        if 'src' in s and 'playlist_dvr.m3u8' in s['src']:
+        if 'src' in s and '.m3u8' in s['src']:
             stream_url = s['src']
 
     stream = {

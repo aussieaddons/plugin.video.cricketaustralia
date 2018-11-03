@@ -58,3 +58,4 @@ For help and support, feel free to register on our
 [Slack channel](http://slack-invite.aussieaddons.com/).
 
 Good luck and happy viewing.
+ 

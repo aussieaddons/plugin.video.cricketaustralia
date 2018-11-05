@@ -29,6 +29,7 @@ def make_list():
                                             isFolder=False,
                                             totalItems=len(matches))
 
-            xbmcplugin.endOfDirectory(handle=int(sys.argv[1]))
+        xbmcplugin.endOfDirectory(
+            handle=int(sys.argv[1]), cacheToDisc=False)
     except Exception:
         utils.handle_error('Unable build match list')

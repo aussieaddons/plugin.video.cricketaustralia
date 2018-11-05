@@ -29,6 +29,6 @@ def make_list():
                                             isFolder=False,
                                             totalItems=len(videos))
 
-            xbmcplugin.endOfDirectory(handle=int(sys.argv[1]))
+        xbmcplugin.endOfDirectory(handle=int(sys.argv[1]))
     except Exception:
         utils.handle_error('Unable build video list')

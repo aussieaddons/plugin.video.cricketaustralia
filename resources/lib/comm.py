@@ -31,7 +31,11 @@ def get_matches():
                         'currently unavailable.')
 
     for match in video_data['matchList']['matches']:
-        live_streams = match['liveStreams']
+        live_streams = match.get('liveStreams')
+        if not live_streams:
+            live_stream = match.get('liveStream')
+            if live_stream:
+                live_streams = [live_stream]
 
         # Use the thumb from the match article if available
         thumbnail = None

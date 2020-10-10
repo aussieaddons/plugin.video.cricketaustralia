@@ -1,0 +1,2021 @@
+{
+  "fixtures": [
+    {
+      "competition": {
+        "id": 1652,
+        "name": "Marsh Sheffield Shield 2020-21",
+        "url": "https://www.cricket.com.au/series/marsh-sheffield-shield-2020-21/34qh4ygwpko3n4qx_p6hcg",
+        "imageUrl": "https://www.cricket.com.au/-/media/Logos/Series/2019/Series-Marsh-Sheffield-Shield.ashx",
+        "bannerImageUrl": "https://www.cricket.com.au/-/media/Logos/Series/Series%20banners/Series-Generic.ashx",
+        "drinksNotificationEnabled": false,
+        "order": 1,
+        "twitterHandle": "",
+        "startDateTime": "2020-10-10T00:00:00Z",
+        "endDateTime": "2020-11-20T00:00:00Z",
+        "themeUrl": "",
+        "viewerVerdict": false,
+        "priority": "Medium",
+        "statisticsProvider": "Opta Sports",
+        "relatedSeriesIds": "",
+        "isWomensCompetition": false,
+        "formats": [
+          {
+            "displayName": "First-Class",
+            "associatedMatchType": "Test",
+            "seriesFormatName": "First-Class"
+          }
+        ],
+        "legacyCompetitionId": 2693,
+        "isPublished": true,
+        "sitecoreId": "e1878adf-3088-43a6-b737-8431fcfea10a"
+      },
+      "homeTeam": {
+        "id": 345,
+        "name": "South Australia",
+        "shortName": "SA",
+        "teamColor": "#d2232a",
+        "logoUrl": "https://www.cricket.com.au/-/media/Logos/Teams/Domestic/SA-Redbacks.ashx",
+        "backgroundImageUrl": "https://www.cricket.com.au/-/media/Logos/Teams/Team-Backgrounds/State/Men/sa.ashx",
+        "teambadgeImageUrl": "",
+        "isHomeTeam": true,
+        "isTossWinner": false,
+        "isMatchWinner": false,
+        "battingBonus": 0.00,
+        "bowlingBonus": 0.00,
+        "isActive": true,
+        "legacyTeamId": 155,
+        "fixtureId": 9848
+      },
+      "awayTeam": {
+        "id": 83,
+        "name": "Western Australia Men",
+        "shortName": "WA",
+        "teamColor": "#bb7b22",
+        "logoUrl": "https://www.cricket.com.au/-/media/Logos/Teams/Domestic/WA-new.ashx",
+        "backgroundImageUrl": "https://www.cricket.com.au/-/media/Logos/Teams/Team-Backgrounds/State/Men/waw.ashx",
+        "teambadgeImageUrl": "",
+        "isHomeTeam": false,
+        "isTossWinner": true,
+        "isMatchWinner": false,
+        "battingBonus": 0.00,
+        "bowlingBonus": 0.00,
+        "isActive": true,
+        "legacyTeamId": 91,
+        "fixtureId": 9848
+      },
+      "streams": [
+        {
+          "id": 3895,
+          "competitionId": 1652,
+          "fixtureId": 9848,
+          "streamType": "Video Stream",
+          "streamId": "6198646384001",
+          "broadcasterName": "",
+          "broadcasterUrl": "",
+          "broadcasterLogoUrl": "",
+          "thumbnailUrl": "https://www.cricket.com.au/-/media/Video%20stills/watch-live-android-966x478.ashx",
+          "isLive": true,
+          "androidStreamUrl": "",
+          "iPhoneStreamUrl": "",
+          "combinedStreamUrl": "",
+          "streamName": "Free Live Stream",
+          "startTime": "2020-10-10T00:15:00Z",
+          "endTime": "2020-10-10T08:00:00Z",
+          "description": "",
+          "countries": [
+            {
+              "alpha2Code": "AU"
+            },
+            {
+              "alpha2Code": "DE"
+            },
+            {
+              "alpha2Code": "AL"
+            },
+            {
+              "alpha2Code": "DZ"
+            },
+            {
+              "alpha2Code": "AD"
+            },
+            {
+              "alpha2Code": "AQ"
+            },
+            {
+              "alpha2Code": "BY"
+            },
+            {
+              "alpha2Code": "BQ"
+            },
+            {
+              "alpha2Code": "BA"
+            },
+            {
+              "alpha2Code": "BV"
+            },
+            {
+              "alpha2Code": "IO"
+            },
+            {
+              "alpha2Code": "CX"
+            },
+            {
+              "alpha2Code": "CC"
+            },
+            {
+              "alpha2Code": "HR"
+            },
+            {
+              "alpha2Code": "CU"
+            },
+            {
+              "alpha2Code": "CZ"
+            },
+            {
+              "alpha2Code": "FK"
+            },
+            {
+              "alpha2Code": "FO"
+            },
+            {
+              "alpha2Code": "TF"
+            },
+            {
+              "alpha2Code": "IO"
+            },
+            {
+              "alpha2Code": "GL"
+            },
+            {
+              "alpha2Code": "GP"
+            },
+            {
+              "alpha2Code": "HM"
+            },
+            {
+              "alpha2Code": "LY"
+            },
+            {
+              "alpha2Code": "MK"
+            },
+            {
+              "alpha2Code": "MH"
+            },
+            {
+              "alpha2Code": "MQ"
+            },
+            {
+              "alpha2Code": "MR"
+            },
+            {
+              "alpha2Code": "MX"
+            },
+            {
+              "alpha2Code": "FM"
+            },
+            {
+              "alpha2Code": "MC"
+            },
+            {
+              "alpha2Code": "ME"
+            },
+            {
+              "alpha2Code": "MA"
+            },
+            {
+              "alpha2Code": "NG"
+            },
+            {
+              "alpha2Code": "PS"
+            },
+            {
+              "alpha2Code": "PG"
+            },
+            {
+              "alpha2Code": "PN"
+            },
+            {
+              "alpha2Code": "PR"
+            },
+            {
+              "alpha2Code": "BL"
+            },
+            {
+              "alpha2Code": "MF"
+            },
+            {
+              "alpha2Code": "PM"
+            },
+            {
+              "alpha2Code": "SM"
+            },
+            {
+              "alpha2Code": "RS"
+            },
+            {
+              "alpha2Code": "SX"
+            },
+            {
+              "alpha2Code": "GS"
+            },
+            {
+              "alpha2Code": "SJ"
+            },
+            {
+              "alpha2Code": "TK"
+            },
+            {
+              "alpha2Code": "AR"
+            },
+            {
+              "alpha2Code": "BZ"
+            },
+            {
+              "alpha2Code": "BO"
+            },
+            {
+              "alpha2Code": "BR"
+            },
+            {
+              "alpha2Code": "CL"
+            },
+            {
+              "alpha2Code": "CO"
+            },
+            {
+              "alpha2Code": "CR"
+            },
+            {
+              "alpha2Code": "EC"
+            },
+            {
+              "alpha2Code": "SV"
+            },
+            {
+              "alpha2Code": "GF"
+            },
+            {
+              "alpha2Code": "GT"
+            },
+            {
+              "alpha2Code": "GY"
+            },
+            {
+              "alpha2Code": "HN"
+            },
+            {
+              "alpha2Code": "NI"
+            },
+            {
+              "alpha2Code": "PA"
+            },
+            {
+              "alpha2Code": "PY"
+            },
+            {
+              "alpha2Code": "PE"
+            },
+            {
+              "alpha2Code": "SR"
+            },
+            {
+              "alpha2Code": "UY"
+            },
+            {
+              "alpha2Code": "VE"
+            },
+            {
+              "alpha2Code": "AT"
+            },
+            {
+              "alpha2Code": "BE"
+            },
+            {
+              "alpha2Code": "BG"
+            },
+            {
+              "alpha2Code": "DK"
+            },
+            {
+              "alpha2Code": "EE"
+            },
+            {
+              "alpha2Code": "FI"
+            },
+            {
+              "alpha2Code": "FR"
+            },
+            {
+              "alpha2Code": "GR"
+            },
+            {
+              "alpha2Code": "HU"
+            },
+            {
+              "alpha2Code": "IS"
+            },
+            {
+              "alpha2Code": "IT"
+            },
+            {
+              "alpha2Code": "LV"
+            },
+            {
+              "alpha2Code": "LI"
+            },
+            {
+              "alpha2Code": "LT"
+            },
+            {
+              "alpha2Code": "LU"
+            },
+            {
+              "alpha2Code": "MT"
+            },
+            {
+              "alpha2Code": "NO"
+            },
+            {
+              "alpha2Code": "PL"
+            },
+            {
+              "alpha2Code": "PT"
+            },
+            {
+              "alpha2Code": "RO"
+            },
+            {
+              "alpha2Code": "SK"
+            },
+            {
+              "alpha2Code": "SI"
+            },
+            {
+              "alpha2Code": "ES"
+            },
+            {
+              "alpha2Code": "SE"
+            },
+            {
+              "alpha2Code": "CH"
+            },
+            {
+              "alpha2Code": "NL"
+            },
+            {
+              "alpha2Code": "FJ"
+            },
+            {
+              "alpha2Code": "AS"
+            },
+            {
+              "alpha2Code": "WS"
+            },
+            {
+              "alpha2Code": "CK"
+            },
+            {
+              "alpha2Code": "KI"
+            },
+            {
+              "alpha2Code": "NR"
+            },
+            {
+              "alpha2Code": "NU"
+            },
+            {
+              "alpha2Code": "NF"
+            },
+            {
+              "alpha2Code": "MP"
+            },
+            {
+              "alpha2Code": "PW"
+            },
+            {
+              "alpha2Code": "TO"
+            },
+            {
+              "alpha2Code": "TV"
+            },
+            {
+              "alpha2Code": "AF"
+            },
+            {
+              "alpha2Code": "AM"
+            },
+            {
+              "alpha2Code": "AZ"
+            },
+            {
+              "alpha2Code": "BN"
+            },
+            {
+              "alpha2Code": "KH"
+            },
+            {
+              "alpha2Code": "TD"
+            },
+            {
+              "alpha2Code": "CN"
+            },
+            {
+              "alpha2Code": "CY"
+            },
+            {
+              "alpha2Code": "DJ"
+            },
+            {
+              "alpha2Code": "TL"
+            },
+            {
+              "alpha2Code": "ET"
+            },
+            {
+              "alpha2Code": "GE"
+            },
+            {
+              "alpha2Code": "HK"
+            },
+            {
+              "alpha2Code": "ID"
+            },
+            {
+              "alpha2Code": "IL"
+            },
+            {
+              "alpha2Code": "JP"
+            },
+            {
+              "alpha2Code": "KZ"
+            },
+            {
+              "alpha2Code": "KG"
+            },
+            {
+              "alpha2Code": "LA"
+            },
+            {
+              "alpha2Code": "MO"
+            },
+            {
+              "alpha2Code": "MY"
+            },
+            {
+              "alpha2Code": "FM"
+            },
+            {
+              "alpha2Code": "MD"
+            },
+            {
+              "alpha2Code": "MN"
+            },
+            {
+              "alpha2Code": "MM"
+            },
+            {
+              "alpha2Code": "NC"
+            },
+            {
+              "alpha2Code": "KP"
+            },
+            {
+              "alpha2Code": "PH"
+            },
+            {
+              "alpha2Code": "RU"
+            },
+            {
+              "alpha2Code": "SG"
+            },
+            {
+              "alpha2Code": "SB"
+            },
+            {
+              "alpha2Code": "KR"
+            },
+            {
+              "alpha2Code": "SS"
+            },
+            {
+              "alpha2Code": "TW"
+            },
+            {
+              "alpha2Code": "TJ"
+            },
+            {
+              "alpha2Code": "TH"
+            },
+            {
+              "alpha2Code": "TR"
+            },
+            {
+              "alpha2Code": "TM"
+            },
+            {
+              "alpha2Code": "UA"
+            },
+            {
+              "alpha2Code": "UZ"
+            },
+            {
+              "alpha2Code": "VU"
+            },
+            {
+              "alpha2Code": "VN"
+            },
+            {
+              "alpha2Code": "AF"
+            },
+            {
+              "alpha2Code": "AM"
+            },
+            {
+              "alpha2Code": "AZ"
+            },
+            {
+              "alpha2Code": "BH"
+            },
+            {
+              "alpha2Code": "BD"
+            },
+            {
+              "alpha2Code": "BT"
+            },
+            {
+              "alpha2Code": "BN"
+            },
+            {
+              "alpha2Code": "KH"
+            },
+            {
+              "alpha2Code": "CN"
+            },
+            {
+              "alpha2Code": "CY"
+            },
+            {
+              "alpha2Code": "TL"
+            },
+            {
+              "alpha2Code": "EG"
+            },
+            {
+              "alpha2Code": "ET"
+            },
+            {
+              "alpha2Code": "GE"
+            },
+            {
+              "alpha2Code": "GU"
+            },
+            {
+              "alpha2Code": "HK"
+            },
+            {
+              "alpha2Code": "IN"
+            },
+            {
+              "alpha2Code": "ID"
+            },
+            {
+              "alpha2Code": "IR"
+            },
+            {
+              "alpha2Code": "AE"
+            },
+            {
+              "alpha2Code": "IL"
+            },
+            {
+              "alpha2Code": "JP"
+            },
+            {
+              "alpha2Code": "JO"
+            },
+            {
+              "alpha2Code": "KZ"
+            },
+            {
+              "alpha2Code": "KW"
+            },
+            {
+              "alpha2Code": "KG"
+            },
+            {
+              "alpha2Code": "LA"
+            },
+            {
+              "alpha2Code": "LB"
+            },
+            {
+              "alpha2Code": "MO"
+            },
+            {
+              "alpha2Code": "MY"
+            },
+            {
+              "alpha2Code": "MV"
+            },
+            {
+              "alpha2Code": "FM"
+            },
+            {
+              "alpha2Code": "MD"
+            },
+            {
+              "alpha2Code": "MN"
+            },
+            {
+              "alpha2Code": "MM"
+            },
+            {
+              "alpha2Code": "NP"
+            },
+            {
+              "alpha2Code": "NC"
+            },
+            {
+              "alpha2Code": "KP"
+            },
+            {
+              "alpha2Code": "OM"
+            },
+            {
+              "alpha2Code": "PK"
+            },
+            {
+              "alpha2Code": "PS"
+            },
+            {
+              "alpha2Code": "PH"
+            },
+            {
+              "alpha2Code": "QA"
+            },
+            {
+              "alpha2Code": "RU"
+            },
+            {
+              "alpha2Code": "SA"
+            },
+            {
+              "alpha2Code": "SG"
+            },
+            {
+              "alpha2Code": "AD"
+            },
+            {
+              "alpha2Code": "SB"
+            },
+            {
+              "alpha2Code": "SO"
+            },
+            {
+              "alpha2Code": "KR"
+            },
+            {
+              "alpha2Code": "LK"
+            },
+            {
+              "alpha2Code": "SD"
+            },
+            {
+              "alpha2Code": "SY"
+            },
+            {
+              "alpha2Code": "TW"
+            },
+            {
+              "alpha2Code": "TJ"
+            },
+            {
+              "alpha2Code": "TH"
+            },
+            {
+              "alpha2Code": "TC"
+            },
+            {
+              "alpha2Code": "TM"
+            },
+            {
+              "alpha2Code": "UA"
+            },
+            {
+              "alpha2Code": "UZ"
+            },
+            {
+              "alpha2Code": "VU"
+            },
+            {
+              "alpha2Code": "VN"
+            },
+            {
+              "alpha2Code": "YE"
+            },
+            {
+              "alpha2Code": "IE"
+            },
+            {
+              "alpha2Code": "GB"
+            },
+            {
+              "alpha2Code": "IM"
+            },
+            {
+              "alpha2Code": "JE"
+            },
+            {
+              "alpha2Code": "AO"
+            },
+            {
+              "alpha2Code": "BJ"
+            },
+            {
+              "alpha2Code": "BW"
+            },
+            {
+              "alpha2Code": "BF"
+            },
+            {
+              "alpha2Code": "BI"
+            },
+            {
+              "alpha2Code": "CM"
+            },
+            {
+              "alpha2Code": "CV"
+            },
+            {
+              "alpha2Code": "CF"
+            },
+            {
+              "alpha2Code": "TD"
+            },
+            {
+              "alpha2Code": "CD"
+            },
+            {
+              "alpha2Code": "CG"
+            },
+            {
+              "alpha2Code": "KM"
+            },
+            {
+              "alpha2Code": "DJ"
+            },
+            {
+              "alpha2Code": "GQ"
+            },
+            {
+              "alpha2Code": "ER"
+            },
+            {
+              "alpha2Code": "GA"
+            },
+            {
+              "alpha2Code": "GM"
+            },
+            {
+              "alpha2Code": "GH"
+            },
+            {
+              "alpha2Code": "GN"
+            },
+            {
+              "alpha2Code": "GW"
+            },
+            {
+              "alpha2Code": "KE"
+            },
+            {
+              "alpha2Code": "LS"
+            },
+            {
+              "alpha2Code": "LR"
+            },
+            {
+              "alpha2Code": "MG"
+            },
+            {
+              "alpha2Code": "MW"
+            },
+            {
+              "alpha2Code": "ML"
+            },
+            {
+              "alpha2Code": "MU"
+            },
+            {
+              "alpha2Code": "YT"
+            },
+            {
+              "alpha2Code": "MZ"
+            },
+            {
+              "alpha2Code": "NA"
+            },
+            {
+              "alpha2Code": "NE"
+            },
+            {
+              "alpha2Code": "RW"
+            },
+            {
+              "alpha2Code": "ZA"
+            },
+            {
+              "alpha2Code": "RE"
+            },
+            {
+              "alpha2Code": "ST"
+            },
+            {
+              "alpha2Code": "SN"
+            },
+            {
+              "alpha2Code": "SC"
+            },
+            {
+              "alpha2Code": "SL"
+            },
+            {
+              "alpha2Code": "SH"
+            },
+            {
+              "alpha2Code": "SZ"
+            },
+            {
+              "alpha2Code": "TO"
+            },
+            {
+              "alpha2Code": "UG"
+            },
+            {
+              "alpha2Code": "EH"
+            },
+            {
+              "alpha2Code": "ZM"
+            },
+            {
+              "alpha2Code": "US"
+            },
+            {
+              "alpha2Code": "ZW"
+            },
+            {
+              "alpha2Code": "CA"
+            },
+            {
+              "alpha2Code": "AW"
+            },
+            {
+              "alpha2Code": "BB"
+            },
+            {
+              "alpha2Code": "BM"
+            },
+            {
+              "alpha2Code": "CW"
+            },
+            {
+              "alpha2Code": "DO"
+            },
+            {
+              "alpha2Code": "DM"
+            },
+            {
+              "alpha2Code": "GY"
+            },
+            {
+              "alpha2Code": "HT"
+            },
+            {
+              "alpha2Code": "JM"
+            },
+            {
+              "alpha2Code": "SR"
+            },
+            {
+              "alpha2Code": "BS"
+            },
+            {
+              "alpha2Code": "KY"
+            },
+            {
+              "alpha2Code": "AI"
+            },
+            {
+              "alpha2Code": "LC"
+            },
+            {
+              "alpha2Code": "TT"
+            },
+            {
+              "alpha2Code": "DZ"
+            },
+            {
+              "alpha2Code": "LY"
+            },
+            {
+              "alpha2Code": "MR"
+            },
+            {
+              "alpha2Code": "MA"
+            },
+            {
+              "alpha2Code": "NG"
+            },
+            {
+              "alpha2Code": "PG"
+            },
+            {
+              "alpha2Code": "TN"
+            }
+          ],
+          "channels": [
+            {
+              "channelConstantId": 1,
+              "id": 48,
+              "channelLogo": "https://www.cricket.com.au/-/media/Logos/Broadcasters/cn-keyline-v2.ashx",
+              "channelName": "Cricket Network",
+              "channelURL": "http://www.cricket.com.au/video",
+              "channelType": "TVChannel",
+              "registrationUrl": ""
+            }
+          ]
+        }
+      ],
+      "id": 9848,
+      "name": "",
+      "startDateTime": "2020-10-10T00:30:00Z",
+      "endDateTime": "2020-10-13T07:30:00Z",
+      "gameTypeId": 4,
+      "gameType": "First Class Domestic",
+      "isLive": true,
+      "isCompleted": false,
+      "isDuckworthLewis": false,
+      "matchDay": 1,
+      "numberOfDays": 4,
+      "resultText": "Western Australia won the toss and elected to bat.",
+      "resultTypeId": "None",
+      "resultType": "None",
+      "gameStatusId": "InPlay",
+      "gameStatus": "In Play",
+      "tossResult": "Western Australia won the toss and elected to bat.",
+      "tossDecision": "Bat",
+      "ticketUrl": "",
+      "featured": false,
+      "isWomensMatch": false,
+      "fanHashTag": "",
+      "twitterHandle": "",
+      "socialEventId": "",
+      "tuneIn": false,
+      "matchDayHomePageImageUrl": "",
+      "fanSocialEventId": "",
+      "isVideoReplays": true,
+      "gamedayStatus": "",
+      "isEnableGameday": false,
+      "moreInfoUrl": "",
+      "oversRemaining": "56.4",
+      "order": 2,
+      "competitionId": 1652,
+      "venueId": 199,
+      "homeTeamId": 345,
+      "awayTeamId": 83,
+      "channels": [
+        {
+          "channelConstantId": 1,
+          "id": 48,
+          "channelLogo": "https://www.cricket.com.au/-/media/Logos/Broadcasters/cn-keyline-v2.ashx",
+          "channelName": "Cricket Network",
+          "channelURL": "http://www.cricket.com.au/video",
+          "channelType": "TVChannel",
+          "registrationUrl": ""
+        },
+        {
+          "channelConstantId": 2,
+          "id": 69,
+          "channelLogo": "https://www.cricket.com.au/-/media/Logos/Broadcasters/kayo-keyline.ashx",
+          "channelName": "Kayo",
+          "channelURL": "https://kayosports.com.au/?marketing=ca-launch&extcamp=cau-mtc-cau-lnk-lnc-grc-cri&channel=cricketaus&campaign=launch&voucher=CKTAUS",
+          "channelType": "TVChannel",
+          "registrationUrl": "https://kayosports.com.au/?marketing=ca-launch&extcamp=cau-web-bnr-lnc-cau-cri&channel=cricketaus&campaign=launch&voucher=CKTAUS"
+        }
+      ],
+      "legacyFixtureId": 49296,
+      "isInProgress": true,
+      "totalOvers": "",
+      "isPublished": true
+    },
+    {
+      "competition": {
+        "id": 1652,
+        "name": "Marsh Sheffield Shield 2020-21",
+        "url": "https://www.cricket.com.au/series/marsh-sheffield-shield-2020-21/34qh4ygwpko3n4qx_p6hcg",
+        "imageUrl": "https://www.cricket.com.au/-/media/Logos/Series/2019/Series-Marsh-Sheffield-Shield.ashx",
+        "bannerImageUrl": "https://www.cricket.com.au/-/media/Logos/Series/Series%20banners/Series-Generic.ashx",
+        "drinksNotificationEnabled": false,
+        "order": 1,
+        "twitterHandle": "",
+        "startDateTime": "2020-10-10T00:00:00Z",
+        "endDateTime": "2020-11-20T00:00:00Z",
+        "themeUrl": "",
+        "viewerVerdict": false,
+        "priority": "Medium",
+        "statisticsProvider": "Opta Sports",
+        "relatedSeriesIds": "",
+        "isWomensCompetition": false,
+        "formats": [
+          {
+            "displayName": "First-Class",
+            "associatedMatchType": "Test",
+            "seriesFormatName": "First-Class"
+          }
+        ],
+        "legacyCompetitionId": 2693,
+        "isPublished": true,
+        "sitecoreId": "e1878adf-3088-43a6-b737-8431fcfea10a"
+      },
+      "homeTeam": {
+        "id": 673,
+        "name": "Queensland Bulls",
+        "shortName": "QLD",
+        "teamColor": "#762033",
+        "logoUrl": "https://www.cricket.com.au/-/media/Logos/Teams/Domestic/Matador-Cup/Matador-Flags-QLD.ashx",
+        "backgroundImageUrl": "https://www.cricket.com.au/-/media/Logos/Teams/Team-Backgrounds/State/Men/qld.ashx",
+        "teambadgeImageUrl": "",
+        "isHomeTeam": true,
+        "isTossWinner": false,
+        "isMatchWinner": false,
+        "battingBonus": 0.00,
+        "bowlingBonus": 0.00,
+        "isActive": true,
+        "legacyTeamId": 297,
+        "fixtureId": 9849
+      },
+      "awayTeam": {
+        "id": 85,
+        "name": "Tasmanian Tigers Men",
+        "shortName": "TAS",
+        "teamColor": "#006f3b",
+        "logoUrl": "https://www.cricket.com.au/-/media/Logos/Teams/Domestic/Tasmanian-Tigers.ashx",
+        "backgroundImageUrl": "https://www.cricket.com.au/-/media/Logos/Teams/Team-Backgrounds/State/Men/tas.ashx",
+        "teambadgeImageUrl": "",
+        "isHomeTeam": false,
+        "isTossWinner": true,
+        "isMatchWinner": false,
+        "battingBonus": 0.00,
+        "bowlingBonus": 0.00,
+        "isActive": true,
+        "legacyTeamId": 298,
+        "fixtureId": 9849
+      },
+      "streams": [
+        {
+          "id": 3902,
+          "competitionId": 1652,
+          "fixtureId": 9849,
+          "streamType": "Video Stream",
+          "streamId": "6199029284001",
+          "broadcasterName": "",
+          "broadcasterUrl": "",
+          "broadcasterLogoUrl": "",
+          "thumbnailUrl": "https://www.cricket.com.au/-/media/Video%20stills/watch-live-android-966x478.ashx",
+          "isLive": true,
+          "androidStreamUrl": "",
+          "iPhoneStreamUrl": "",
+          "combinedStreamUrl": "",
+          "streamName": "Free Live Stream",
+          "startTime": "2020-10-09T23:45:00Z",
+          "endTime": "2020-10-10T07:30:00Z",
+          "description": "",
+          "countries": [
+            {
+              "alpha2Code": "AU"
+            },
+            {
+              "alpha2Code": "DE"
+            },
+            {
+              "alpha2Code": "AL"
+            },
+            {
+              "alpha2Code": "DZ"
+            },
+            {
+              "alpha2Code": "AD"
+            },
+            {
+              "alpha2Code": "AQ"
+            },
+            {
+              "alpha2Code": "BY"
+            },
+            {
+              "alpha2Code": "BQ"
+            },
+            {
+              "alpha2Code": "BA"
+            },
+            {
+              "alpha2Code": "BV"
+            },
+            {
+              "alpha2Code": "IO"
+            },
+            {
+              "alpha2Code": "CX"
+            },
+            {
+              "alpha2Code": "CC"
+            },
+            {
+              "alpha2Code": "HR"
+            },
+            {
+              "alpha2Code": "CU"
+            },
+            {
+              "alpha2Code": "CZ"
+            },
+            {
+              "alpha2Code": "FK"
+            },
+            {
+              "alpha2Code": "FO"
+            },
+            {
+              "alpha2Code": "TF"
+            },
+            {
+              "alpha2Code": "IO"
+            },
+            {
+              "alpha2Code": "GL"
+            },
+            {
+              "alpha2Code": "GP"
+            },
+            {
+              "alpha2Code": "HM"
+            },
+            {
+              "alpha2Code": "LY"
+            },
+            {
+              "alpha2Code": "MK"
+            },
+            {
+              "alpha2Code": "MH"
+            },
+            {
+              "alpha2Code": "MQ"
+            },
+            {
+              "alpha2Code": "MR"
+            },
+            {
+              "alpha2Code": "MX"
+            },
+            {
+              "alpha2Code": "FM"
+            },
+            {
+              "alpha2Code": "MC"
+            },
+            {
+              "alpha2Code": "ME"
+            },
+            {
+              "alpha2Code": "MA"
+            },
+            {
+              "alpha2Code": "NG"
+            },
+            {
+              "alpha2Code": "PS"
+            },
+            {
+              "alpha2Code": "PG"
+            },
+            {
+              "alpha2Code": "PN"
+            },
+            {
+              "alpha2Code": "PR"
+            },
+            {
+              "alpha2Code": "BL"
+            },
+            {
+              "alpha2Code": "MF"
+            },
+            {
+              "alpha2Code": "PM"
+            },
+            {
+              "alpha2Code": "SM"
+            },
+            {
+              "alpha2Code": "RS"
+            },
+            {
+              "alpha2Code": "SX"
+            },
+            {
+              "alpha2Code": "GS"
+            },
+            {
+              "alpha2Code": "SJ"
+            },
+            {
+              "alpha2Code": "TK"
+            },
+            {
+              "alpha2Code": "AR"
+            },
+            {
+              "alpha2Code": "BZ"
+            },
+            {
+              "alpha2Code": "BO"
+            },
+            {
+              "alpha2Code": "BR"
+            },
+            {
+              "alpha2Code": "CL"
+            },
+            {
+              "alpha2Code": "CO"
+            },
+            {
+              "alpha2Code": "CR"
+            },
+            {
+              "alpha2Code": "EC"
+            },
+            {
+              "alpha2Code": "SV"
+            },
+            {
+              "alpha2Code": "GF"
+            },
+            {
+              "alpha2Code": "GT"
+            },
+            {
+              "alpha2Code": "GY"
+            },
+            {
+              "alpha2Code": "HN"
+            },
+            {
+              "alpha2Code": "NI"
+            },
+            {
+              "alpha2Code": "PA"
+            },
+            {
+              "alpha2Code": "PY"
+            },
+            {
+              "alpha2Code": "PE"
+            },
+            {
+              "alpha2Code": "SR"
+            },
+            {
+              "alpha2Code": "UY"
+            },
+            {
+              "alpha2Code": "VE"
+            },
+            {
+              "alpha2Code": "AT"
+            },
+            {
+              "alpha2Code": "BE"
+            },
+            {
+              "alpha2Code": "BG"
+            },
+            {
+              "alpha2Code": "DK"
+            },
+            {
+              "alpha2Code": "EE"
+            },
+            {
+              "alpha2Code": "FI"
+            },
+            {
+              "alpha2Code": "FR"
+            },
+            {
+              "alpha2Code": "GR"
+            },
+            {
+              "alpha2Code": "HU"
+            },
+            {
+              "alpha2Code": "IS"
+            },
+            {
+              "alpha2Code": "IT"
+            },
+            {
+              "alpha2Code": "LV"
+            },
+            {
+              "alpha2Code": "LI"
+            },
+            {
+              "alpha2Code": "LT"
+            },
+            {
+              "alpha2Code": "LU"
+            },
+            {
+              "alpha2Code": "MT"
+            },
+            {
+              "alpha2Code": "NO"
+            },
+            {
+              "alpha2Code": "PL"
+            },
+            {
+              "alpha2Code": "PT"
+            },
+            {
+              "alpha2Code": "RO"
+            },
+            {
+              "alpha2Code": "SK"
+            },
+            {
+              "alpha2Code": "SI"
+            },
+            {
+              "alpha2Code": "ES"
+            },
+            {
+              "alpha2Code": "SE"
+            },
+            {
+              "alpha2Code": "CH"
+            },
+            {
+              "alpha2Code": "NL"
+            },
+            {
+              "alpha2Code": "FJ"
+            },
+            {
+              "alpha2Code": "AS"
+            },
+            {
+              "alpha2Code": "WS"
+            },
+            {
+              "alpha2Code": "CK"
+            },
+            {
+              "alpha2Code": "KI"
+            },
+            {
+              "alpha2Code": "NR"
+            },
+            {
+              "alpha2Code": "NU"
+            },
+            {
+              "alpha2Code": "NF"
+            },
+            {
+              "alpha2Code": "MP"
+            },
+            {
+              "alpha2Code": "PW"
+            },
+            {
+              "alpha2Code": "TO"
+            },
+            {
+              "alpha2Code": "TV"
+            },
+            {
+              "alpha2Code": "AF"
+            },
+            {
+              "alpha2Code": "AM"
+            },
+            {
+              "alpha2Code": "AZ"
+            },
+            {
+              "alpha2Code": "BN"
+            },
+            {
+              "alpha2Code": "KH"
+            },
+            {
+              "alpha2Code": "TD"
+            },
+            {
+              "alpha2Code": "CN"
+            },
+            {
+              "alpha2Code": "CY"
+            },
+            {
+              "alpha2Code": "DJ"
+            },
+            {
+              "alpha2Code": "TL"
+            },
+            {
+              "alpha2Code": "ET"
+            },
+            {
+              "alpha2Code": "GE"
+            },
+            {
+              "alpha2Code": "HK"
+            },
+            {
+              "alpha2Code": "ID"
+            },
+            {
+              "alpha2Code": "IL"
+            },
+            {
+              "alpha2Code": "JP"
+            },
+            {
+              "alpha2Code": "KZ"
+            },
+            {
+              "alpha2Code": "KG"
+            },
+            {
+              "alpha2Code": "LA"
+            },
+            {
+              "alpha2Code": "MO"
+            },
+            {
+              "alpha2Code": "MY"
+            },
+            {
+              "alpha2Code": "FM"
+            },
+            {
+              "alpha2Code": "MD"
+            },
+            {
+              "alpha2Code": "MN"
+            },
+            {
+              "alpha2Code": "MM"
+            },
+            {
+              "alpha2Code": "NC"
+            },
+            {
+              "alpha2Code": "KP"
+            },
+            {
+              "alpha2Code": "PH"
+            },
+            {
+              "alpha2Code": "RU"
+            },
+            {
+              "alpha2Code": "SG"
+            },
+            {
+              "alpha2Code": "SB"
+            },
+            {
+              "alpha2Code": "KR"
+            },
+            {
+              "alpha2Code": "SS"
+            },
+            {
+              "alpha2Code": "TW"
+            },
+            {
+              "alpha2Code": "TJ"
+            },
+            {
+              "alpha2Code": "TH"
+            },
+            {
+              "alpha2Code": "TR"
+            },
+            {
+              "alpha2Code": "TM"
+            },
+            {
+              "alpha2Code": "UA"
+            },
+            {
+              "alpha2Code": "UZ"
+            },
+            {
+              "alpha2Code": "VU"
+            },
+            {
+              "alpha2Code": "VN"
+            },
+            {
+              "alpha2Code": "AF"
+            },
+            {
+              "alpha2Code": "AM"
+            },
+            {
+              "alpha2Code": "AZ"
+            },
+            {
+              "alpha2Code": "BH"
+            },
+            {
+              "alpha2Code": "BD"
+            },
+            {
+              "alpha2Code": "BT"
+            },
+            {
+              "alpha2Code": "BN"
+            },
+            {
+              "alpha2Code": "KH"
+            },
+            {
+              "alpha2Code": "CN"
+            },
+            {
+              "alpha2Code": "CY"
+            },
+            {
+              "alpha2Code": "TL"
+            },
+            {
+              "alpha2Code": "EG"
+            },
+            {
+              "alpha2Code": "ET"
+            },
+            {
+              "alpha2Code": "GE"
+            },
+            {
+              "alpha2Code": "GU"
+            },
+            {
+              "alpha2Code": "HK"
+            },
+            {
+              "alpha2Code": "IN"
+            },
+            {
+              "alpha2Code": "ID"
+            },
+            {
+              "alpha2Code": "IR"
+            },
+            {
+              "alpha2Code": "AE"
+            },
+            {
+              "alpha2Code": "IL"
+            },
+            {
+              "alpha2Code": "JP"
+            },
+            {
+              "alpha2Code": "JO"
+            },
+            {
+              "alpha2Code": "KZ"
+            },
+            {
+              "alpha2Code": "KW"
+            },
+            {
+              "alpha2Code": "KG"
+            },
+            {
+              "alpha2Code": "LA"
+            },
+            {
+              "alpha2Code": "LB"
+            },
+            {
+              "alpha2Code": "MO"
+            },
+            {
+              "alpha2Code": "MY"
+            },
+            {
+              "alpha2Code": "MV"
+            },
+            {
+              "alpha2Code": "FM"
+            },
+            {
+              "alpha2Code": "MD"
+            },
+            {
+              "alpha2Code": "MN"
+            },
+            {
+              "alpha2Code": "MM"
+            },
+            {
+              "alpha2Code": "NP"
+            },
+            {
+              "alpha2Code": "NC"
+            },
+            {
+              "alpha2Code": "KP"
+            },
+            {
+              "alpha2Code": "OM"
+            },
+            {
+              "alpha2Code": "PK"
+            },
+            {
+              "alpha2Code": "PS"
+            },
+            {
+              "alpha2Code": "PH"
+            },
+            {
+              "alpha2Code": "QA"
+            },
+            {
+              "alpha2Code": "RU"
+            },
+            {
+              "alpha2Code": "SA"
+            },
+            {
+              "alpha2Code": "SG"
+            },
+            {
+              "alpha2Code": "AD"
+            },
+            {
+              "alpha2Code": "SB"
+            },
+            {
+              "alpha2Code": "SO"
+            },
+            {
+              "alpha2Code": "KR"
+            },
+            {
+              "alpha2Code": "LK"
+            },
+            {
+              "alpha2Code": "SD"
+            },
+            {
+              "alpha2Code": "SY"
+            },
+            {
+              "alpha2Code": "TW"
+            },
+            {
+              "alpha2Code": "TJ"
+            },
+            {
+              "alpha2Code": "TH"
+            },
+            {
+              "alpha2Code": "TC"
+            },
+            {
+              "alpha2Code": "TM"
+            },
+            {
+              "alpha2Code": "UA"
+            },
+            {
+              "alpha2Code": "UZ"
+            },
+            {
+              "alpha2Code": "VU"
+            },
+            {
+              "alpha2Code": "VN"
+            },
+            {
+              "alpha2Code": "YE"
+            },
+            {
+              "alpha2Code": "IE"
+            },
+            {
+              "alpha2Code": "GB"
+            },
+            {
+              "alpha2Code": "IM"
+            },
+            {
+              "alpha2Code": "JE"
+            },
+            {
+              "alpha2Code": "AO"
+            },
+            {
+              "alpha2Code": "BJ"
+            },
+            {
+              "alpha2Code": "BW"
+            },
+            {
+              "alpha2Code": "BF"
+            },
+            {
+              "alpha2Code": "BI"
+            },
+            {
+              "alpha2Code": "CM"
+            },
+            {
+              "alpha2Code": "CV"
+            },
+            {
+              "alpha2Code": "CF"
+            },
+            {
+              "alpha2Code": "TD"
+            },
+            {
+              "alpha2Code": "CD"
+            },
+            {
+              "alpha2Code": "CG"
+            },
+            {
+              "alpha2Code": "KM"
+            },
+            {
+              "alpha2Code": "DJ"
+            },
+            {
+              "alpha2Code": "GQ"
+            },
+            {
+              "alpha2Code": "ER"
+            },
+            {
+              "alpha2Code": "GA"
+            },
+            {
+              "alpha2Code": "GM"
+            },
+            {
+              "alpha2Code": "GH"
+            },
+            {
+              "alpha2Code": "GN"
+            },
+            {
+              "alpha2Code": "GW"
+            },
+            {
+              "alpha2Code": "KE"
+            },
+            {
+              "alpha2Code": "LS"
+            },
+            {
+              "alpha2Code": "LR"
+            },
+            {
+              "alpha2Code": "MG"
+            },
+            {
+              "alpha2Code": "MW"
+            },
+            {
+              "alpha2Code": "ML"
+            },
+            {
+              "alpha2Code": "MU"
+            },
+            {
+              "alpha2Code": "YT"
+            },
+            {
+              "alpha2Code": "MZ"
+            },
+            {
+              "alpha2Code": "NA"
+            },
+            {
+              "alpha2Code": "NE"
+            },
+            {
+              "alpha2Code": "RW"
+            },
+            {
+              "alpha2Code": "ZA"
+            },
+            {
+              "alpha2Code": "RE"
+            },
+            {
+              "alpha2Code": "ST"
+            },
+            {
+              "alpha2Code": "SN"
+            },
+            {
+              "alpha2Code": "SC"
+            },
+            {
+              "alpha2Code": "SL"
+            },
+            {
+              "alpha2Code": "SH"
+            },
+            {
+              "alpha2Code": "SZ"
+            },
+            {
+              "alpha2Code": "TO"
+            },
+            {
+              "alpha2Code": "UG"
+            },
+            {
+              "alpha2Code": "EH"
+            },
+            {
+              "alpha2Code": "ZM"
+            },
+            {
+              "alpha2Code": "US"
+            },
+            {
+              "alpha2Code": "ZW"
+            },
+            {
+              "alpha2Code": "CA"
+            },
+            {
+              "alpha2Code": "AW"
+            },
+            {
+              "alpha2Code": "BB"
+            },
+            {
+              "alpha2Code": "BM"
+            },
+            {
+              "alpha2Code": "CW"
+            },
+            {
+              "alpha2Code": "DO"
+            },
+            {
+              "alpha2Code": "DM"
+            },
+            {
+              "alpha2Code": "GY"
+            },
+            {
+              "alpha2Code": "HT"
+            },
+            {
+              "alpha2Code": "JM"
+            },
+            {
+              "alpha2Code": "SR"
+            },
+            {
+              "alpha2Code": "BS"
+            },
+            {
+              "alpha2Code": "KY"
+            },
+            {
+              "alpha2Code": "AI"
+            },
+            {
+              "alpha2Code": "LC"
+            },
+            {
+              "alpha2Code": "TT"
+            },
+            {
+              "alpha2Code": "DZ"
+            },
+            {
+              "alpha2Code": "LY"
+            },
+            {
+              "alpha2Code": "MR"
+            },
+            {
+              "alpha2Code": "MA"
+            },
+            {
+              "alpha2Code": "NG"
+            },
+            {
+              "alpha2Code": "PG"
+            },
+            {
+              "alpha2Code": "TN"
+            }
+          ],
+          "channels": [
+            {
+              "channelConstantId": 1,
+              "id": 48,
+              "channelLogo": "https://www.cricket.com.au/-/media/Logos/Broadcasters/cn-keyline-v2.ashx",
+              "channelName": "Cricket Network",
+              "channelURL": "http://www.cricket.com.au/video",
+              "channelType": "TVChannel",
+              "registrationUrl": ""
+            }
+          ]
+        }
+      ],
+      "id": 9849,
+      "name": "",
+      "startDateTime": "2020-10-10T00:00:00Z",
+      "endDateTime": "2020-10-13T07:00:00Z",
+      "gameTypeId": 4,
+      "gameType": "First Class Domestic",
+      "isLive": true,
+      "isCompleted": false,
+      "isDuckworthLewis": false,
+      "matchDay": 1,
+      "numberOfDays": 4,
+      "resultText": "Tasmania won the toss and elected to bat.",
+      "resultTypeId": "None",
+      "resultType": "None",
+      "gameStatusId": "InPlay",
+      "gameStatus": "In Play",
+      "tossResult": "Tasmania won the toss and elected to bat.",
+      "tossDecision": "Bat",
+      "ticketUrl": "",
+      "featured": false,
+      "isWomensMatch": false,
+      "fanHashTag": "",
+      "twitterHandle": "",
+      "socialEventId": "",
+      "tuneIn": false,
+      "matchDayHomePageImageUrl": "",
+      "fanSocialEventId": "",
+      "isVideoReplays": true,
+      "gamedayStatus": "",
+      "isEnableGameday": false,
+      "moreInfoUrl": "",
+      "oversRemaining": "48.5",
+      "order": 1,
+      "competitionId": 1652,
+      "venueId": 340,
+      "homeTeamId": 673,
+      "awayTeamId": 85,
+      "channels": [
+        {
+          "channelConstantId": 1,
+          "id": 48,
+          "channelLogo": "https://www.cricket.com.au/-/media/Logos/Broadcasters/cn-keyline-v2.ashx",
+          "channelName": "Cricket Network",
+          "channelURL": "http://www.cricket.com.au/video",
+          "channelType": "TVChannel",
+          "registrationUrl": ""
+        },
+        {
+          "channelConstantId": 2,
+          "id": 69,
+          "channelLogo": "https://www.cricket.com.au/-/media/Logos/Broadcasters/kayo-keyline.ashx",
+          "channelName": "Kayo",
+          "channelURL": "https://kayosports.com.au/?marketing=ca-launch&extcamp=cau-mtc-cau-lnk-lnc-grc-cri&channel=cricketaus&campaign=launch&voucher=CKTAUS",
+          "channelType": "TVChannel",
+          "registrationUrl": "https://kayosports.com.au/?marketing=ca-launch&extcamp=cau-web-bnr-lnc-cau-cri&channel=cricketaus&campaign=launch&voucher=CKTAUS"
+        }
+      ],
+      "legacyFixtureId": 49297,
+      "isInProgress": true,
+      "totalOvers": "",
+      "isPublished": true
+    }
+  ],
+  "responseError": false
+}

@@ -3,8 +3,8 @@ CATEGORIES = ['Live Matches',
 
 VIDEOS_URL = 'https://apinew.cricket.com.au/videos?Limit=30'
 
-MATCHES_URL = 'https://apinew.cricket.com.au/matches?inProgressLimit=15&completedLimit=0&upcomingLimit=0&format=json'
+MATCHES_URL = 'https://apiv2.cricket.com.au/mobile/views/stream?Country=AU&format=json&jsconfig=eccn'
 
 MATCH_STREAM_URL = 'https://edge.api.brightcove.com/playback/v1/accounts/807051129001/videos/'
 
-BRIGHTCOVE_PK = 'BCpkADawqM17uKWqEHlBulux385QZ_BoC6x04LRDmsykNRb4uwwRJ8x38iHNk-7kxEqJUu3qZGMFCiKA4d8SeUB0c40Z46CutsbR219abTqUHi82DqCZMUJo36s'
+BRIGHTCOVE_PK = 'BCpkADawqM2ueJ2wfUJO43jPx_Ws9NEaUMDIl4OJumomT89KzeOhyWxJC9gz0EoVDGPNpULiPF7inqUyzdHOK3k_r1-Z_zOxFDEDpMzU9_iobgqlVGNAtk8VA2E'

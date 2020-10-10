@@ -30,30 +30,19 @@ def get_matches():
         raise Exception('Failed to retrieve video data. Service may be '
                         'currently unavailable.')
 
-    for match in video_data['matchList']['matches']:
-        live_streams = match.get('liveStreams')
-        if not live_streams:
-            live_stream = match.get('liveStream')
-            if live_stream:
-                live_streams = [live_stream]
-
-        # Use the thumb from the match article if available
-        thumbnail = None
-        if 'matchWrapArticle' in match:
-            thumbnail = match['matchWrapArticle'].get('image')
-
+    for match in video_data.get('fixtures'):
+        live_streams = match.get('streams')
         for ls in live_streams:
             # Only consider streams available in AU
-            if 'AU' in [c['countryName'] for c in ls['streamCountriesList']]:
-                name = "%s: %s v %s" % (match['series']['name'],
+            if 'AU' in [c['alpha2Code'] for c in ls['countries']]:
+                name = "%s: %s v %s" % (match['competition']['name'],
                                         match['homeTeam']['shortName'],
                                         match['awayTeam']['shortName'])
                 video_list.append({
-                    'video_id': ls['id'],
+                    'video_id': ls.get('streamId'),
                     'name': name,
-                    'thumbnail': thumbnail or ls.get('thumbnailUrl')
+                    'thumbnail': ls.get('thumbnailUrl')
                 })
-
     return video_list
 
 

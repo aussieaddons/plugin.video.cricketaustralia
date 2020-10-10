@@ -22,7 +22,7 @@ def fetch_url(url, headers=None):
 
 def get_matches():
     video_list = []
-    data = fetch_url(config.MATCHES_URL)
+    data = fetch_url(config.LIVETV_URL)
     try:
         video_data = json.loads(data)
     except ValueError:
@@ -30,7 +30,7 @@ def get_matches():
         raise Exception('Failed to retrieve video data. Service may be '
                         'currently unavailable.')
 
-    for match in video_data['matchList']['matches']:
+    for match in video_data['liveMatches']:
         live_streams = match.get('liveStreams')
         if not live_streams:
             live_stream = match.get('liveStream')

@@ -31,6 +31,7 @@ def play(params):
         item = xbmcgui.ListItem(label=stream['name'],
                                 path=stream['url'])
         item.setProperty('inputstreamaddon', 'inputstream.adaptive')
+        item.setProperty('inputstream', 'inputstream.adaptive')
         item.setProperty('inputstream.adaptive.manifest_type', 'hls')
         item.setMimeType('application/vnd.apple.mpegurl')
         item.setContentLookup(False)

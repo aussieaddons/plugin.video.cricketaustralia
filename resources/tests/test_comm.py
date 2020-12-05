@@ -4,11 +4,6 @@ import io
 import os
 import re
 
-try:
-    import mock
-except ImportError:
-    import unittest.mock as mock
-
 import responses
 
 import testtools

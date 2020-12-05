@@ -3,23 +3,14 @@ from __future__ import absolute_import, unicode_literals
 import importlib
 import io
 import os
-from builtins import str
 
 try:
     import mock
 except ImportError:
     import unittest.mock as mock
 
-from future.moves.urllib.parse import quote_plus
-
-import requests
-
-import responses
-
 import testtools
 
-import resources.lib.comm as comm
-import resources.lib.config as config
 from resources.tests.fakes import fakes
 
 

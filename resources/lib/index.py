@@ -1,10 +1,12 @@
 import sys
-import xbmcgui
-import xbmcplugin
 
 from aussieaddonscommon import utils
 
 import resources.lib.config as config
+
+import xbmcgui
+
+import xbmcplugin
 
 
 def make_list():
@@ -22,5 +24,4 @@ def make_list():
 
         xbmcplugin.endOfDirectory(handle=int(sys.argv[1]), succeeded=ok)
     except Exception:
-        raise
         utils.handle_error('Unable build video category list')

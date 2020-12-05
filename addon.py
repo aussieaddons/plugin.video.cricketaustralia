@@ -7,8 +7,6 @@ import resources.lib.matches as matches
 import resources.lib.play as play
 import resources.lib.videos as videos
 
-import xbmcgui
-
 # Print our platform/version debugging information
 utils.log_kodi_platform_version()
 

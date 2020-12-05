@@ -1,10 +1,12 @@
 import sys
-import xbmcgui
-import xbmcplugin
 
 from aussieaddonscommon import utils
 
 import resources.lib.comm as comm
+
+import xbmcgui
+
+import xbmcplugin
 
 
 def play(params):

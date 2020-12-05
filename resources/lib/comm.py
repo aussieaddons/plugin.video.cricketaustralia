@@ -5,6 +5,7 @@ from aussieaddonscommon import utils
 
 import resources.lib.config as config
 
+
 def fetch_url(url, headers=None):
     """Simple function that fetches a URL using requests."""
     with session.Session() as sess:

@@ -8,6 +8,7 @@
     <provides>video</provides>
   </extension>
   <extension library="addon.py" point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
     <summary>Cricket Live by Aussie Add-ons</summary>
     <description>Watch live Cricket matches and other videos</description>
     <website>http://aussieaddons.com/addons/cricket/</website>

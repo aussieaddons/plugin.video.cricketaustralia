@@ -9,7 +9,7 @@ from aussieaddonscommon import utils
 def make_list():
     try:
         for category in config.CATEGORIES:
-            url = "%s?category=%s" % (sys.argv[0], category)
+            url = "{0}?category={1}".format(sys.argv[0], category)
             listitem = xbmcgui.ListItem(category)
 
             # add the item to the media list
@@ -21,4 +21,5 @@ def make_list():
 
         xbmcplugin.endOfDirectory(handle=int(sys.argv[1]), succeeded=ok)
     except Exception:
+        raise
         utils.handle_error('Unable build video category list')

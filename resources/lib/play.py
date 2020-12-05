@@ -5,7 +5,7 @@ import xbmcplugin
 
 from aussieaddonscommon import utils
 
-pluginhandle = int(sys.argv[1])
+
 
 
 def play(params):
@@ -22,6 +22,7 @@ def play(params):
         return
 
     try:
+        pluginhandle = int(sys.argv[1])
         stream = comm.get_stream(params['video_id'])
 
         utils.log('Attempting to play: {0} {1}'.format(stream['name'],

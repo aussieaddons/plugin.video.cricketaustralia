@@ -1,7 +1,7 @@
 CATEGORIES = ['Live Matches',
               'Latest News']
 
-VIDEOS_URL = 'https://apinew.cricket.com.au/videos?Limit=30'
+VIDEOS_URL = 'https://apiv2.cricket.com.au/mobile/videos?Country=AU&Limit=50&DigitalProperty=caliveapp&format=json&jsconfig=eccn'
 
 MATCHES_URL = 'https://apiv2.cricket.com.au/mobile/views/stream?Country=AU&format=json&jsconfig=eccn'
 

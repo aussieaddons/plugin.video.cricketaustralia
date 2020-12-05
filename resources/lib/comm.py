@@ -60,7 +60,7 @@ def get_videos():
         video_list.append({
             'video_id': video['videoId'],
             'name': video['title'],
-            'description': video['summary'],
+            'description': video['shortDescription'],
             'thumbnail': video['thumbnailUrl'],
         })
     return video_list
@@ -86,7 +86,7 @@ def get_stream(video_id):
             stream_url = s['src']
 
     stream = {
-        'url': stream_url,
+        'url': str(stream_url),
         'name': video_data['name'],
     }
     return stream

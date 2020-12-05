@@ -15,10 +15,10 @@ def make_list():
                                   'Please try again later.'])
         else:
             for video in videos:
-                url = "%s?video_id=%s" % (sys.argv[0], video['video_id'])
-                listitem = xbmcgui.ListItem(video['name'],
-                                            iconImage=video['thumbnail'],
-                                            thumbnailImage=video['thumbnail'])
+                url = "{0}?video_id={1}".format(sys.argv[0], video['video_id'])
+                listitem = xbmcgui.ListItem(video['name'])
+                listitem.setArt({'icon': video['thumbnail'],
+                                 'thumb': video['thumbnail']})
                 listitem.setProperty('IsPlayable', 'true')
                 listitem.setInfo('video', {'plot': video['name']})
 

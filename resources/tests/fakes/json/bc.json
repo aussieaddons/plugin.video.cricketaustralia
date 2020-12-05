@@ -1,0 +1,99 @@
+{
+    "account_id": "807051129001",
+    "ad_keys": null,
+    "created_at": "2020-11-29T23:58:17.556Z",
+    "cue_points": [],
+    "custom_fields": {},
+    "description": "His team lost the Dettol ODI series but this India fan left the SCG a happy man after his partner of almost 18 months said yes to his mid-game marriage proposal!",
+    "duration": 69184,
+    "economics": "AD_SUPPORTED",
+    "id": "6212954053001",
+    "link": null,
+    "long_description": null,
+    "name": "The story behind India fan's special SCG proposal",
+    "offline_enabled": false,
+    "poster": "https://https://foo.bar/image.jpg",
+    "poster_sources": [
+        {
+            "src": "https://foo.bar/image.jpg"
+        }
+    ],
+    "published_at": "2020-11-29T23:58:17.571Z",
+    "reference_id": null,
+    "sources": [
+        {
+            "codecs": "avc1,mp4a",
+            "ext_x_version": "4",
+            "src": "http://foo.bar/master.m3u8",
+            "type": "application/x-mpegURL"
+        },
+        {
+            "codecs": "avc1,mp4a",
+            "ext_x_version": "4",
+            "src": "https://foo.bar/master.m3u8",
+            "type": "application/x-mpegURL"
+        },
+        {
+            "codecs": "avc1,mp4a",
+            "profiles": "urn:mpeg:dash:profile:isoff-live:2011",
+            "src": "http://foo.bar/manifest.mpd",
+            "type": "application/dash+xml"
+        },
+        {
+            "codecs": "avc1,mp4a",
+            "profiles": "urn:mpeg:dash:profile:isoff-live:2011",
+            "src": "https://foo.bar/manifest.mpd",
+            "type": "application/dash+xml"
+        },
+        {
+            "avg_bitrate": 2133000,
+            "codec": "H264",
+            "container": "MP4",
+            "duration": 69184,
+            "height": 720,
+            "size": 18468707,
+            "src": "https://foo.bar/main.mp4",
+            "width": 1280
+        }
+    ],
+    "tags": [],
+    "text_tracks": [
+        {
+            "account_id": "807051129001",
+            "asset_id": null,
+            "bandwidth": 452,
+            "default": false,
+            "height": 270,
+            "id": null,
+            "kind": "metadata",
+            "label": "thumbnails",
+            "mime_type": "text/webvtt",
+            "sources": null,
+            "src": "http://foo.bar/thumbnail.webvtt",
+            "srclang": null,
+            "width": 480
+        },
+        {
+            "account_id": "807051129001",
+            "asset_id": null,
+            "bandwidth": 452,
+            "default": false,
+            "height": 270,
+            "id": null,
+            "kind": "metadata",
+            "label": "thumbnails",
+            "mime_type": "text/webvtt",
+            "sources": null,
+            "src": "https://foo.bar/thumbnail.webvtt",
+            "srclang": null,
+            "width": 480
+        }
+    ],
+    "thumbnail": "https://foo.bar/image.jpg",
+    "thumbnail_sources": [
+        {
+            "src": "https://foo.bar/image.jpg"
+        }
+    ],
+    "updated_at": "2020-11-30T00:09:30.756Z"
+}

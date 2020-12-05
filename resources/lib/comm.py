@@ -1,9 +1,9 @@
-import config
 import json
 
 from aussieaddonscommon import session
 from aussieaddonscommon import utils
 
+import resources.lib.config as config
 
 def fetch_url(url, headers=None):
     """Simple function that fetches a URL using requests."""

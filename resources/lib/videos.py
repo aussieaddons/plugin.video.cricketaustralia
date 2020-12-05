@@ -1,9 +1,10 @@
-import comm
 import sys
 import xbmcgui
 import xbmcplugin
 
 from aussieaddonscommon import utils
+
+import resources.lib.comm as comm
 
 
 def make_list():

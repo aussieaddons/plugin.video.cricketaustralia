@@ -39,10 +39,11 @@ def get_matches():
                 name = "%s: %s v %s" % (match['competition']['name'],
                                         match['homeTeam']['shortName'],
                                         match['awayTeam']['shortName'])
+                thumb = ls.get('thumbnailUrl').replace(' ', '%20')
                 video_list.append({
                     'video_id': ls.get('streamId'),
                     'name': name,
-                    'thumbnail': ls.get('thumbnailUrl')
+                    'thumbnail': thumb
                 })
     return video_list
 
@@ -58,11 +59,12 @@ def get_videos():
                         'currently unavailable.')
 
     for video in video_data['videos']:
+        thumb = video.get('thumbnailUrl').replace(' ', '%20')
         video_list.append({
             'video_id': video['videoId'],
             'name': video['title'],
             'description': video['shortDescription'],
-            'thumbnail': video['thumbnailUrl'],
+            'thumbnail': thumb
         })
     return video_list
 

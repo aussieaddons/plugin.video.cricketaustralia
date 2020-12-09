@@ -14,8 +14,8 @@ def make_list():
         matches = comm.get_matches()
 
         if len(matches) == 0:
-            utils.dialog_message(['No matches are currently being played.',
-                                  'Please try again later.'])
+            utils.dialog_message('No matches are currently being played. '
+                                 'Please try again later.')
         else:
             for match in matches:
                 url = "{0}?video_id={1}".format(sys.argv[0], match['video_id'])

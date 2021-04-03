@@ -18,7 +18,8 @@ def make_list():
                                  'Please try again later.')
         else:
             for match in matches:
-                url = "{0}?video_id={1}".format(sys.argv[0], match['video_id'])
+                url = "{0}?video_id={1}&addon_version={2}".format(
+                    sys.argv[0], match['video_id'], utils.get_addon_version())
                 listitem = xbmcgui.ListItem(match['name'])
                 listitem.setArt({'icon': match['thumbnail'],
                                  'thumb': match['thumbnail']})
